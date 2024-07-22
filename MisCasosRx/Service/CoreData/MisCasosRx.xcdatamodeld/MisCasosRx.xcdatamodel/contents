@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23B74" minimumToolsVersion="Xcode 13.0" sourceLanguage="Swift" usedWithCloudKit="YES" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Clinical" representedClassName="Clinical" syncable="YES">
+        <attribute name="area" optional="YES" attributeType="String"/>
+        <attribute name="cedula" optional="YES" attributeType="String"/>
+        <attribute name="centro" optional="YES" attributeType="String"/>
+        <attribute name="defecto" optional="YES" attributeType="String"/>
+        <attribute name="fecha" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="titulo" optional="YES" attributeType="String"/>
+        <relationship name="clinicalToImage" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageData" inverseName="imageToClinical" inverseEntity="ImageData"/>
+    </entity>
+    <entity name="ImageData" representedClassName="ImageData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="img" optional="YES" attributeType="Binary"/>
+        <relationship name="imageToClinical" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Clinical" inverseName="clinicalToImage" inverseEntity="Clinical"/>
+    </entity>
+</model>

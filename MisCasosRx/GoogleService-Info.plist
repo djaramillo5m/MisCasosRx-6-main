@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>947994743778-nap0ma82tmb3v7dr80c0r2nr5remj60s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.947994743778-nap0ma82tmb3v7dr80c0r2nr5remj60s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzgwvTUKOfougbSta5hlxPVbxd4IIk0uk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>947994743778</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.MisCasosRxN</string>
+	<key>PROJECT_ID</key>
+	<string>miscasosrx-de648</string>
+	<key>STORAGE_BUCKET</key>
+	<string>miscasosrx-de648.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:947994743778:ios:0205d6a277a0c4f09b1fbb</string>
+</dict>
+</plist>

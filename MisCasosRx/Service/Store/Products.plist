@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>subscription.standard.MisCasos</key>
+	<string>🗺</string>
+	<key>subscription.premium.MisCasos</key>
+	<string>🗺</string>
+	<key>subscription.pro.MisCasos</key>
+	<string>🗺</string>
+	<key>fuel.MisCasosRx.500</key>
+	<string></string>
+	<key>fuel.MisCasosRx.1000</key>
+	<string></string>
+	<key>fuel.MisCasosRx.2000</key>
+	<string></string>
+	<key>fuel.MisCasosRx.5000</key>
+	<string></string>
+</dict>
+</plist>
