@@ -171,7 +171,7 @@ struct StatisticsView: View {
                                 
                 Text("Agradecimiento especial a:\nTrinh Ngoc Nam - Lead iOS Developer")
                     .font(.system(size: 9, weight: .semibold))
-                    .foregroundColor(Color.white)
+                    .foregroundColor(Color.gray)
                     .multilineTextAlignment(.center)
                     .frame(maxWidth: .infinity, alignment: .center)
                 
@@ -200,7 +200,7 @@ struct StatisticsView: View {
                     .frame(maxWidth: .infinity, alignment: .center)
                      
                 Text("®")
-                    .font(.system(size: 10, weight: .light))
+                    .font(.system(size: 12, weight: .light))
                     .foregroundColor(Color.gray)
                     .multilineTextAlignment(.center)
                     .frame(maxWidth: .infinity, alignment: .center)
